@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.smartboard.Activity.JoinMeetingActivity">
+    <LinearLayout
+        android:id="@+id/top_layout_join_meeting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/common_top_bar_black"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="34dip"
+            android:layout_height="36dip"
+            android:layout_marginLeft="8dip"
+            android:background="@drawable/wifi_joinmeeting"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="请选择要加入的会议"
+            android:textColor="@color/white_text"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <com.example.smartboard.MyView.MyListView
+        android:id="@+id/freelook_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="1.0dip"
+        android:listSelector="#00000000" />
+
+</LinearLayout>

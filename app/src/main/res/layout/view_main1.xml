@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_text"
+    android:id="@+id/view1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:background="@color/white_text"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="@dimen/function_button_length"
+                android:layout_height="@dimen/function_button_length"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/launch_meeting"
+                android:background="@drawable/launch_meeting" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="@dimen/function_textsize"
+                android:textColor="@color/gray_text"
+                android:text="发起会议"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="@dimen/function_button_length"
+                android:layout_height="@dimen/function_button_length"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/join_meeting"
+                android:background="@drawable/join_meeting" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="@dimen/function_textsize"
+                android:textColor="@color/gray_text"
+                android:text="加入会议"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

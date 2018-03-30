@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="common_top_bar_blue">#69c3ea</color>
+    <color name="common_top_bar_black">#22292c</color>
+    <color name="welcome_black">#1C2121</color>
+    <color name="gray_background">#b3b1b1</color>
+    <color name="black_text">#000000</color>
+    <color name="gray_text">#a5a8a8</color>
+    <color name="background_fragment_gray">#dcdede</color>
+    <color name="white_text">#ffffff</color>
+    <color name="popup_title_color">#ffc9cdd1</color>
+    <color name="advance_setting_item_bg">#fff8f8f8</color>
+    <color name="light_blue">#33b5e5</color>
+</resources>

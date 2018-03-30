@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SmartpadClient" >
+    <!-- -->
+    <com.example.smartboard.MyView.SmartpadView
+        android:id="@+id/smartpadview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include
+        android:id="@+id/arcmenu"
+        layout="@layout/menu_arc" />
+    <Button
+        android:id="@+id/undo"
+        android:onClick="undoPath"
+        android:background="@drawable/smart_undo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/redo"
+        android:onClick="redoPath"
+        android:background="@drawable/smart_redo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/undo"
+        android:layout_toEndOf="@+id/undo" />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="pageTurning"
+        android:background="@drawable/smart_newpage"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/redo"
+        android:layout_toEndOf="@+id/redo" />
+</RelativeLayout>
