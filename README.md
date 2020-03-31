@@ -3,5 +3,5 @@
 视频演示：</br>
 ![](https://github.com/EccentricBox/SmartBoard/blob/master/1.mp4)
 
-### 爱心打赏
+### 大哥请我喝瓶可乐
 ![](https://github.com/BoxFighter/ProxyServer/blob/master/money.png?raw=true)<br>
